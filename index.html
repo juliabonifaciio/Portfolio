@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Bonifacio - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <canvas id="particles-network"></canvas>
+    
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container-nav">
+            <button class="navbar-toggler" onclick="toggleMenu()">
+                ☰
+            </button>
+            <ul class="navbar-menu" id="navbarNav">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Inicial -->
+    <section id="inicio" class="section">
+        <div class="container">
+            <h1>Julia Bonifacio</h1>
+            <p>Desenvolvedora Full-Stack Web e Mobile</p>
+            <hr>
+            <p>O futuro será daqueles que se dedicarem à ciência, à tecnologia e à inovação.</p>
+            <p>— Nikola Tesla</p>
+
+            <a href="https://wa.me/5511980336967" class="btn-contato">Chamar no WhatsApp</a>
+            <a href="./assets/CV, Julia Bonifacio.pdf" class="btn-cv" download>Baixar CV</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <img src="./assets/Profile.jpg" alt="Julia Bonifacio" class="profile-img">
+            <div>
+                <h2>Sobre</h2>
+                <p>Olá! Sou Julia Bonifacio, desenvolvedora apaixonada por tecnologia e design. Tenho experiência em React Native, JavaScript, TypeScript, Node.js e PHP, além de criação de layouts no Canva, Figma e Photoshop.</p>
+                <p>Atualmente, sou professora de tecnologia na Discover On, ensinando Criação de Games, Informática e Robótica. Meu objetivo é unir criatividade e desenvolvimento para criar soluções inovadoras e impactantes.</p>
+
+                <div class="feature-container">
+                    <div class="feature-box">
+                        <i class="fas fa-code"></i>
+                        <h4>Desenvolvimento Full-Stack</h4>
+                        <p>Experiência em criar aplicações completas, do front-end ao back-end.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Programação Sustentável</h4>
+                        <p>Códigos limpos para facilitar a manutenção a longo prazo.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-users"></i>
+                        <h4>Foco no Cliente</h4>
+                        <p>Comunicação clara, objetiva e entrega de resultados que superam as expectativas dos clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">TypeScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">PHP</div>
+                <div class="skill">Java</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2>Serviços Prestados</h2>
+            <div class="services">
+                <div class="service">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60" class="service-icon">
+                        <path fill="#8a2be2" d="M4 5h16v2H4zm0 6h16v2H4zm0 6h16v2H4z"/>
+                        <path fill="#8a2be2" d="M2 2h20v20H2V2zm2 2v16h16V4H4z"/>
+                    </svg>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de sites responsivos, landing pages e aplicações web utilizando tecnologias modernas como React, HTML5, CSS3 e JavaScript.</p>
+                </div>
+                <div class="service">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60" class="service-icon">
+                        <path fill="#8a2be2" d="M16 2H8C6.9 2 6 2.9 6 4v16c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-3 19h-2v-1h2v1zm3-2H8V5h8v14z"/>
+                    </svg>
+                    <h3>Desenvolvimento Mobile</h3>
+                    <p>Desenvolvimento de aplicativos móveis para iOS e Android com React Native, proporcionando experiências nativas com um único código base.</p>
+                </div>
+                <div class="service">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="60" height="60" class="service-icon">
+                        <path fill="#8a2be2" d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3zm13.71-9.37l-1.34-1.34a.996.996 0 0 0-1.41 0L9 12.25 11.75 15l8.96-8.96a.996.996 0 0 0 0-1.41z"/>
+                    </svg>
+                    <h3>Design Gráfico</h3>
+                    <p>Criação de identidades visuais, layouts para mídias sociais, interfaces de usuário intuitivas e materiais gráficos utilizando Canva, Figma e Photoshop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Kanban</h3>
+                    <p>Sistema de gerenciamento de tarefas intuitivo e eficiente.</p>
+                    <a href="https://juliabonifaciio.github.io/InteractiveKarban/">Ver Projeto</a>
+                </div>
+                <div class="project">
+                    <h3>Alioth</h3>
+                    <p>Aplicativo móvel desenvolvido com React Native.</p>
+                    <a href="https://github.com/juliabonifaciio/Alioth">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Fique à vontade para entrar em contato comigo através das minhas redes ou pelo email e telefone:</p>
+
+            <div class="contato-info">
+                <div class="contato-item">
+                    <svg fill="#8a2be2" height="40px" width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-201.5 -201.5 713.00 713.00" xml:space="preserve" stroke="#8a2be2" class="contato-icon">
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73 C77.16,101.969,74.922,99.73,72.16,99.73z"></path>
+                            <path d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4 c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"></path>
+                            <path d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599 c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319 c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995 C310,145.43,300.549,94.761,230.454,94.761z"></path>
+                        </g>
+                    </svg>
+                    <p><a href="https://www.linkedin.com/in/juliabonifaciio/?trk=opento_sprofile_topcard" target="_blank">LinkedIn</a></p>
+                </div>
+                <div class="contato-item">
+                    <svg width="40px" height="40px" viewBox="-166.4 -166.4 588.80 588.80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" fill="#8a2be2" stroke="#8a2be2" class="contato-icon">
+                        <g fill="#8a2be2">
+                            <path d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0"></path>
+                        </g>
+                    </svg>
+                    <p><a href="https://github.com/juliabonifaciio" target="_blank">GitHub</a></p>
+                </div>
+                <div class="contato-item">
+                    <p>Email: <a href="mailto:juliamfbonifacio@gmail.com">juliamfbonifacio@gmail.com</a></p>
+                </div>
+                <div class="contato-item">
+                    <p>Telefone: (11) 98033-6967</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão "Voltar ao Topo" -->
+    <button id="btnTopo" onclick="voltarAoTopo()">▲</button>
+
+    <script>
+        window.onscroll = function() {
+            let botao = document.getElementById("btnTopo");
+            if (document.documentElement.scrollTop > 300) {
+                botao.style.display = "block";
+            } else {
+                botao.style.display = "none";
+            }
+        };
+
+        function voltarAoTopo() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Julia Bonifacio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
