@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Professional Portfolio
 
 Welcome to my personal portfolio! This website showcases my professional skills, services, and contact information. Below is a brief description of the sections of this portfolio:
 
